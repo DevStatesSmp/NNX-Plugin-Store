@@ -1,0 +1,17 @@
+{
+  "store_version": "1.0",
+  "plugins": [
+    {
+      "id": "example-plugin",
+      "name": "Example Plugin",
+      "version": "0.1.0",
+      "description": "Plugin ví dụ.",
+      "author": "DevStatesSmp",
+      "url": "https://example.com/example-plugin.zip",
+      "install": {
+        "type": "zip",
+        "target": "plugins/example"
+      }
+    }
+  ]
+}
