@@ -1,5 +1,8 @@
 {
   "store_version": "1.0",
+  "store_name": "NNX Plugin Store",
+  "store_description": "Official plugin repository for NNX",
+  
   "plugins": [
     {
       "id": "example-plugin",
