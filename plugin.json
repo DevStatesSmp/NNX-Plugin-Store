@@ -5,7 +5,7 @@
       "id": "example-plugin",
       "name": "Example Plugin",
       "version": "0.1.0",
-      "description": "Plugin ví dụ.",
+      "description": "Plugin",
       "author": "DevStatesSmp",
       "url": "https://example.com/example-plugin.zip",
       "install": {
