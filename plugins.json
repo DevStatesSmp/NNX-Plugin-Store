@@ -1,0 +1,17 @@
+{
+  "store_version": "1.0",
+  "plugins": [
+    {
+      "id": "example-plugin",
+      "name": "NNX Plugin",
+      "version": "0.3.1",
+      "description": "Plugin",
+      "author": "DevStatesSmp",
+      "url": "https://example.com/example-plugin.zip",
+      "install": {
+        "type": "zip",
+        "target": "plugins/example"
+      }
+    }
+  ]
+}
