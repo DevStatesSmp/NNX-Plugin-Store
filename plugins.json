@@ -3,14 +3,14 @@
   "plugins": [
     {
       "id": "example-plugin",
-      "name": "NNX Plugin",
-      "version": "0.3.1",
-      "description": "Plugin",
+      "name": "Compare Mod",
+      "version": "1.0",
+      "description": "A modded version of Compare command",
       "author": "DevStatesSmp",
-      "url": "https://example.com/example-plugin.zip",
+      "url": "https://github.com/DevStatesSmp/NNX-Plugin-Store/tree/main/plugins/compare_modv1.0.zip",
       "install": {
         "type": "zip",
-        "target": "plugins/example"
+        "target": "plugins/compare"
       }
     }
   ]
