@@ -5,12 +5,12 @@
   
   "plugins": [
     {
-      "id": "example-plugin",
+      "id": "compare_mod",
       "name": "Compare Mod",
-      "version": "1.0",
+      "version": "1.1",
       "description": "A modded version of Compare command",
       "author": "DevStatesSmp",
-      "url": "https://github.com/DevStatesSmp/NNX-Plugin-Store/raw/main/plugins/compare_modv1.0.rar",
+      "url": "https://github.com/DevStatesSmp/NNX-Plugin-Store/raw/main/plugins/compare_modv1.1.rar",
       "install": {
         "type": "rar",
         "target": "plugins/compare"
