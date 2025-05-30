@@ -7,7 +7,7 @@
       "version": "1.0",
       "description": "A modded version of Compare command",
       "author": "DevStatesSmp",
-      "url": "https://raw.githubusercontent.com/DevStatesSmp/NNX-Plugin-Store/main/plugins/compare_modv1.0.rar",
+      "url": "https://github.com/DevStatesSmp/NNX-Plugin-Store/raw/main/plugins/compare_modv1.0.rar",
       "install": {
         "type": "rar",
         "target": "plugins/compare"
