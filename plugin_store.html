@@ -1,64 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>NNX Plugin Store</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
-      font-family: Arial, sans-serif;
-      background-color: #fcfcfc;
       margin: 0;
       padding: 0;
-      color: #333;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+      color: #222;
     }
+
     .container {
-      max-width: 850px;
-      margin: auto;
-      padding: 20px;
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 40px 20px;
       text-align: center;
     }
+
     h1 {
-      font-size: 2em;
-      margin-bottom: 0.3em;
+      font-size: 2.5rem;
       color: #ff6600;
+      margin-bottom: 10px;
     }
+
+    p.description {
+      font-size: 1.1rem;
+      color: #444;
+      margin-bottom: 30px;
+    }
+
     .logo {
-      margin: 20px 0;
+      margin: 30px 0;
+      transition: transform 0.3s ease;
     }
+
     .logo img {
-      width: 200px;
+      width: 180px;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
     }
+
+    .logo:hover img {
+      transform: scale(1.05);
+    }
+
     .badges {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       gap: 12px;
-      margin: 25px 0;
+      margin: 30px 0;
     }
-    .badges img {
-      height: 28px;
+
+    .badges a img {
+      height: 30px;
+      transition: transform 0.2s ease;
     }
+
+    .badges a:hover img {
+      transform: scale(1.1);
+    }
+
     .notice {
       background-color: #fff3cd;
       color: #856404;
       border: 1px solid #ffeeba;
-      padding: 10px 20px;
-      border-radius: 6px;
+      padding: 16px 24px;
+      border-radius: 8px;
       display: inline-block;
-      margin-top: 30px;
-      font-weight: bold;
+      font-weight: 600;
+      margin-top: 40px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      margin-top: 60px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      .logo img {
+        width: 140px;
+      }
+
+      .badges {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .badges a img {
+        height: 28px;
+      }
     }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>NNX Plugin Store</h1>
-    <p><strong>NNX Plugin Store</strong> is the official plugins store for NO_ONX</p>
+    <p class="description"><strong>NNX Plugin Store</strong> is the official plugin marketplace for NO_ONX</p>
 
     <div class="logo">
       <a href="https://github.com/DevStatesSmp/NO_ONX">
-        <img src="https://github.com/user-attachments/assets/dd3b4b8d-ec74-429b-a629-2c1b1f3d6aac" alt="NO_ONX Logo" title="NO_ONX - Lightweight Security Tool" />
+        <img src="https://raw.githubusercontent.com/DevStatesSmp/NO_ONX/main/assets/logo.png" alt="NO_ONX Logo" title="NO_ONX - Lightweight Security Tool" />
       </a>
     </div>
 
@@ -81,8 +137,12 @@
     </div>
 
     <div class="notice">
-      🚧 Still in development, NNX Plugin Store will be available after v0.3.2 beta release
+      🚧 NNX Plugin Store is still in development and will launch after v0.3.2 Beta
     </div>
+
+    <footer>
+      © 2025 DevStatesSmp. All rights reserved.
+    </footer>
   </div>
 </body>
 </html>
