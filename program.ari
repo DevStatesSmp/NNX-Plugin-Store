@@ -1,0 +1,3 @@
+# Simple ARI Script
+int x = 10;
+print x;
